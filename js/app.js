@@ -57,7 +57,7 @@
  sectionInViewport = (onScreen) => {
    const dimensions = onScreen.getBoundingClientRect();
    return (
-     dimensions.top >= 0 && dimensions.top <= 245 
+     dimensions.top <= 350 && dimensions.top >=-300 
    );
  };
  
